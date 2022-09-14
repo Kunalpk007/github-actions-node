@@ -1,7 +1,8 @@
 name: NodeJS Github Action
+
 on: push
 
- jobs:
+jobs:
   build:
    runs-on: ubuntu-latest
 
