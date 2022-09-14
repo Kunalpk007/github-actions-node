@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest app/src/app.test.js",
-    "start": "node app/src"
+    "test": "jest src/app.test.js",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,9 @@
     "url": "https://github.com/Kunalpk007/github-actions-node/issues"
   },
   "homepage": "https://github.com/Kunalpk007/github-actions-node#readme",
-  "devDependencies": {
+  "dependencies": {
     "express": "^4.18.1",
+    "body-parser":"*",
     "jest": "^29.0.3",
     "nodemon": "^2.0.19",
     "supertest": "^6.2.4"
